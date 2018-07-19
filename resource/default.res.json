@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "description_json,background_png,boost_png,bug_bullet_png,moon_png,mooncake_bullet_png,shield_png,star_png,bug_png,player_png,health_png,restart_png,start_png,fzzt_fnt,hylx_fnt,bloodBar_png,bloodBarBg_png,shieldBar_png,bgm_mp3",
+			"keys": "description_json,boost_png,bug_bullet_png,moon_png,mooncake_bullet_png,shield_png,star_png,bug_png,player_png,health_png,restart_png,start_png,fzzt_fnt,hylx_fnt,bloodBar_png,bloodBarBg_png,shieldBar_png,bgm_mp3,background_png",
 			"name": "preload"
 		}
 	],
@@ -10,11 +10,6 @@
 			"url": "config/description.json",
 			"type": "json",
 			"name": "description_json"
-		},
-		{
-			"url": "assets/background.png",
-			"type": "image",
-			"name": "background_png"
 		},
 		{
 			"url": "assets/boost_mooncake.png",
@@ -100,6 +95,11 @@
 			"url": "assets/bgm.mp3",
 			"type": "sound",
 			"name": "bgm_mp3"
+		},
+		{
+			"url": "assets/background.jpg",
+			"type": "image",
+			"name": "background_png"
 		}
 	]
 }

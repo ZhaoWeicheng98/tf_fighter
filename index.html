@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="full-screen" content="true" />
-    <meta name="screen-orientation" content="auto" />
+    <meta name="screen-orientation" content="portrait" />
     <meta name="x5-fullscreen" content="true" />
     <meta name="360-fullscreen" content="true" />
     <style>
@@ -25,7 +25,7 @@
 <body>
     <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
          data-entry-class="Main"
-         data-orientation="auto"
+         data-orientation="portrait"
          data-scale-mode="showAll"
          data-frame-rate="30"
          data-content-width="640"
@@ -35,22 +35,6 @@
          data-show-fps="false" data-show-log="false"
          data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
     </div>
-    <div id="divImage" style="background: #373737;display:none;text-align:center;z-index:99;width:100%;height:100%;position: absolute;">
-        <div style="position:absolute;top:10%;color: #ffffff;display:block;text-align:center;width: 100%;">
-            <span style="display:block;font-size: 25px ">长按保存图片即可分享</span><br/>
-            <img src="" alt="" id="shareImage" style="width: 100%;">
-        </div>
-        <img src="./resource/cross.png" onclick="isHidden('divImage')" alt="" style="position:absolute;right:1%;top:1%;">
-    </div>
-
-
-<script>
-    ///这里添加点击 X 按钮关闭
-    function isHidden(idtext) {
-        var vDiv = document.getElementById(idtext);
-        vDiv.style.display = 'none';
-    }
-</script>
 <script>
     var loadScript = function (list, callback) {
         var loaded = 0;
